@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EFF File Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>EFF File Viewer</h1>
+    <form id="uploadForm">
+        <label for="effFile">Upload .eff File:</label>
+        <input type="file" id="effFile" name="effFile" accept=".eff" required>
+        <button>Upload</button>
+    </form>
+    <div id="fileList"></div>
+    <div id="editorContainer" style="display: none;">
+        <h3>File Editor:</h3>
+        <textarea id="fileEditor" rows="20" cols="80" placeholder="Select a file to edit..." disabled></textarea>
+        <button id="saveFileButton" disabled>Save Changes</button>
+        <button id="repackageButton">Repackage</button>
+    </div>
+    <!-- Move the script tag here -->
+    <script src="script.js"></script>
+</body>
+</html>

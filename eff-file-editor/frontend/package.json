@@ -1,0 +1,17 @@
+{
+  "name": "eff-file-editor-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for the Eff File Editor application",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "http-server public -p 3000",
+    "build": "echo 'Build step not defined'"
+  },
+  "dependencies": {
+    "http-server": "^0.12.3"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
